@@ -34,7 +34,7 @@ html {
 
 body {
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: inherit;
   color: inherit;
   margin-top: 71px; /* Offset body content by navbar height. */
@@ -328,7 +328,7 @@ ul.ul-edu li .description p.institution {
  **************************************************/
 
 .share-box {
-  float: right;
+  display: inline-flex;
 }
 
 ul.share {
@@ -382,7 +382,7 @@ article {
 }
 
 .article-container {
-  max-width: 760px;
+  max-width: 1200px;
   padding: 1rem 20px 0 20px;
   margin: 0 auto 0 auto;
 }
